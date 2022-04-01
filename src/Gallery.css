@@ -1,0 +1,9 @@
+.Gallery{
+    overflow:visible;
+    align-items: center;
+    background-color: rgb(247, 228, 228);
+    border-width: 30px;
+    margin:40;
+    border-style: solid;
+    border-color:brown;
+}

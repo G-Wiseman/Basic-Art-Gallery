@@ -1,0 +1,25 @@
+.Container{
+    overflow: visible;
+    position:relative;
+    text-align: center;
+    color:rgb(42, 87, 38);
+}
+.Container .Photo img{
+    overflow: visible;
+    margin: 40px;
+    color:rgb(148, 108, 0);
+    border-style:solid;
+    border-width:10px;
+    border-radius:25%;
+    vertical-align: middle;
+    box-shadow: rgb(37, 37, 37) 50px 50px;
+
+}
+
+.Container .Text{
+    transform: rotate(45deg);
+    font-size: 25px;
+    position:absolute;
+    left: 15%;
+    top:  45%;
+}
