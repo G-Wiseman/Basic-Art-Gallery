@@ -1,9 +1,25 @@
 body {
+    font-size:40px;
     overflow:visible;
     position:relative;
     background-color: #460b03;
     color: rgb(255, 255, 255);
     padding: 40px;
-    font-family: Arial;
+    font-family:Times New Roman;
     text-align: center;
   }
+
+body .button{
+  color:white;
+  padding:20px;
+  font-size:25px;
+  border-radius:75%;
+  background-color:rgb(60, 126, 54);
+  border-style:solid;
+  border-width:7px;
+  border-color: rgb(60, 126, 54);
+  transition-duration: 0.3s;
+}
+body .button:hover{
+  background-color: rgb(38, 94, 33);
+}
